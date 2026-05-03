@@ -148,9 +148,14 @@ public class DACArecipient
 	 * @return A formated string conataining all instance variables
 	 */
 	public String toString(){
-		return "Surname: " + surname + ", Given name: " + givenName + ", UCIS Number: " + uscisNumber + 
-		", Country of Origin: " + countryOfOrigin + ", Birthday: " + birthday + ", Valid From Date: " +
-		"Expiration: " + expirationDate + ", Sex: " + sex;
+		return "Surname: " + surname + 
+		", Given name: " + givenName + 
+		", UCIS Number: " + uscisNumber + 
+		", Country of Origin: " + countryOfOrigin + 
+		", Birthday: " + birthday + 
+		", Valid From Date: " +
+		"Expiration: " + expirationDate + 
+		", Sex: " + sex;
 
 	}
 
